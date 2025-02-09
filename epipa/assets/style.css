@@ -1,3 +1,246 @@
-body{
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.alinhar{
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 0px;
+}
+
+header {
+    background: linear-gradient(265deg, #203C86 46.03%, #203C86 53.97%);
+    color: #FFF;
+    padding: 10px ;
+    padding-right: 30px;
+}
+
+.navbar{
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-medias{
+    border-bottom: 1px solid;
+    width: 100%;
+    justify-content: end;
+    gap: 20px;
+}
+
+.social-medias p{
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.menu {
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 50px 0;
+}
+
+
+.subtitle {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 30px;
     
+}
+
+
+.content-section img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+.strong, .thin{
+    color: #3C4858;   
+}
+
+.strong{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0
+}
+
+.thin{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.hero p{
+    width: 785px;
+}
+
+.hero h1{
+    color: #000;
+    font-size: 38px;
+    margin: 0;
+}
+
+.subtitle{
+    color: #2648A1;
+    text-align: right;
+    font-size: 21px;
+    font-style: italic;
+}
+
+.text{
+    color:  #3C4858;
+    font-size: 21px;
+    line-height: 170%; 
+}
+
+.about-us p{
+    width: 485px;
+}
+
+.information, .principal{
+    color: #2648A1;
+}
+
+.information{
+    font-size: 14px;
+}
+
+.principal{
+    font-size: 24px;
+    margin: 0;
+}
+
+/* -----
+código - cesimar 
+----------- */
+
+.card{
+    border-radius: .25em;
+    display: block;
+    color: blue;
+    border: 1px solid;
+    text-decoration: none;
+    width: 300px;
+    height: 300px;
+    float: right;
+    position: relative;
+    top: -400px;
+    left: -400px;
+
+  }
+  
+  .card figure{
+    margin: 0;
+  }
+  .card figure img{
+    max-width: 100%;
+    transform: scale(120%);  
+    margin-bottom: 0.75em;
+  }
+  .card figure figcaption{
+    padding: 1em;
+  }
+  
+  .card figure figcaption strong{
+    font-size: 1.5em;
+    margin-bottom: .25em;
+  }
+
+  .figcaption{
+    border: 2px solid #333;
+  }
+/* .*/
+
+.footer {
+    background: var(--Linear, linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%));    
+    color:#C0CCDA;
+    padding: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+address{
+    width: 300px;
+}
+
+address span{
+    padding-right: 10px;
+}
+
+.footer-links {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color:  #C0CCDA;
+
+}
+
+.telegram-box{
+    width: 269px;
+    padding: 32px 24px;
+    border-radius: 6px;
+    background: #FFF;
+}
+
+.telegram-box h3{
+    color:  #1F2D3D;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.telegram-box p{
+    color:  #8492A6;
+    font-size: 14px;
+}
+
+.telegram-box button{
+    padding: 12px 22px;
+    border-radius: 3.509px;
+    background: #3A95E9;
+    border: none;
+    color: #FFF;
+    font-weight: 700;
 }

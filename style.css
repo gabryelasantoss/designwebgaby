@@ -17,6 +17,9 @@ header {
     gap: 40px;
 }
 
+.container{
+    display: flex;
+}
 .profile-card {
     flex-direction: column;
     border-radius: 10px;
