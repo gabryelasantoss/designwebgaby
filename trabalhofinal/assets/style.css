@@ -1,0 +1,42 @@
+.flex{
+    display: flex;
+}
+
+header{
+    background: #FFF;
+    padding: var(--spacing-spacing-base, 16px) var(--spacing-spacing-lg, 32px);
+
+}
+
+header .btn{
+    display: flex;
+    padding: 4px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #F60;
+    border: none;
+    color: #FFF;
+}
+
+.btn:hover{
+    background: #FD8535;
+}
+
+.profile{
+    gap: 10px;
+    align-items: center;
+    margin-left: auto;
+}
+
+.blue{
+    color: #0F3679;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
