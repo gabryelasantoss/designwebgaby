@@ -28,9 +28,14 @@ header {
     padding-right: 30px;
 }
 
+.logo{
+    margin-left: auto;
+}
+
 .navbar{
     flex-direction: column;
 }
+
 
 .navbar {
     display: flex;
@@ -102,7 +107,7 @@ header {
 }
 
 .hero p{
-    width: 785px;
+    max-width: 785px;
 }
 
 .hero h1{
@@ -146,6 +151,8 @@ header {
     display: inline-block;
     justify-content: start;
     display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 /* -----
@@ -184,6 +191,10 @@ código - cesimar
   }
 /* .*/
 
+.destinations{
+    flex-wrap: wrap;
+}
+
 .footer {
     background: var(--Linear, linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%));    
     color:#C0CCDA;
@@ -194,13 +205,12 @@ código - cesimar
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 1200px;
     margin: 0 auto;
     gap: 40px;
 }
 
 address{
-    width: 300px;
+    max-width: 300px;
 }
 
 address span{
@@ -230,7 +240,7 @@ address span{
 }
 
 .telegram-box{
-    width: 269px;
+    max-width: 269px;
     padding: 32px 24px;
     border-radius: 6px;
     background: #FFF;
@@ -259,23 +269,18 @@ address span{
 
 @media (max-width: 568px) {
 
-.social-medias, .menu, .card, .hidden{
+.social-medias, .menu, .hidden{
     display: none;
-}
-
-
-.imagem{
-    width: 300px;
-    height: 300px;
-    background-image: url("img/image\ 22.png");
-    background-size: cover;
-}  
+} 
 
 .aba{
     width: 32px;
     height: 32px;
     background-image: url("img/aba.svg");
-    margin-left: 180px;
+}
+
+header{
+    display: flex;
 }
 
 .hero, .container, .about-us, .footer-container {
@@ -301,13 +306,17 @@ address span{
 .footer{
     padding: 5px;
 }
+.container-about { 
+    align-items: flex-start;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+
 
 }
 
-.container-about { /* Distribui o espaço entre as divs */
-    align-items: flex-start; /* Alinha as divs no topo */
-    gap: 30px;
-  }
+
   
  
   
