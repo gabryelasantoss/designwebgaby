@@ -40,3 +40,50 @@ header .btn{
     line-height: normal;
 }
 
+.item-menu{
+    align-items: center;
+    text-decoration: none;
+    color: #0D5EAF;
+    font-size: 16px;
+    padding: 0px;
+    border: none;
+    background: #FFF;
+    margin-bottom: 10px;
+}
+
+.item-menu:active {
+    .quadrado{
+        background: #0D5EAF;
+    }
+    .gray{
+        background: #F2F9FD;
+    }
+}
+
+.quadrado{
+    padding: 6px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.gray{
+    padding: var(--spacing-spacing-sm, 8px);
+
+}
+
+.container-aside{
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container-aside a {
+    margin-left: auto;
+}
+
+.bottom{
+    margin-top: auto;
+    border-top: 1px solid #E7EBF2;
+}
+
+

@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Trabalho final</title>
     <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -23,27 +25,47 @@
     </header>
 
     <aside>
-        <div class="container-aside">
+        <div class="container-aside flex">
             <a href=""><img src="assets/img/chevron-left.svg" alt="Seta apontada para a esquerda"></a>
             <nav>
                 <menu>
-                    <div class="item-menu flex">
-                        <span><img src="" alt="#"></span><p>Dashboard</p>
-                    </div>
-                    <div class="item-menu flex">
-                        <span><img src="" alt="#"></span><p>Inscrições</p>
-                    </div>
-                    <div class="item-menu flex">
-                        <span><img src="" alt="#"></span><p>Relatórios</p>
-                    </div>
-                    <div class="item-menu flex">
-                        <span><img src="" alt="#"></span><p>Comunicação</p>
-                    </div>
-                    <div class="item-menu flex">
-                        <span><img src="" alt="#"></span><p>Meus eventos</p>
-                    </div>
-                </menu>
+                    <button class="item-menu flex">
+                        <span class="quadrado"><img src="assets/img/icon.svg" alt="icon Dashboard"></span>
+                        <div class="gray">Dashboard</div>
+                    </button>
+
+                    <button class="item-menu flex">
+                        <span class="quadrado flex"><img src="assets/img/Group.svg" alt="icon users"></span>
+                        <div class="gray">Inscrições</div>
+                    </button>
+                    <button class="item-menu flex ">
+                        <span class="quadrado flex"><img src="assets/img/report.svg" alt="icon relatórios"></span>
+                        <div class="gray">Relatórios</div>
+                    </button >
+                    <button class="item-menu flex ">
+                        <span class="quadrado flex"><img src="assets/img/send.svg" alt="icon 'send'"></span>
+                        <div class="gray">Comunicação</div>
+                    </button >
+                    <button  class="item-menu flex">
+                        <span class="quadrado flex"><img src="assets/img/Group.svg" alt="icon eventos"></span>
+                        <div class="gray">Meus eventos</div>
+                    </button>
+                </menu>                
             </nav>
+
+            <div class="bottom">
+                <menu class="bottom">
+                    <button  class="item-menu flex">
+                        <span class="quadrado flex"><img src="assets/img/settings.svg" alt="icon configurações"></span>
+                        <div class="gray">Configurações</div>
+                    </button>
+
+                    <button  class="item-menu flex">
+                        <span class="quadrado flex"><img src="assets/img/sair.svg" alt="icon sair"></span>
+                        <div class="gray">Sair</div>
+                    </button>
+                </menu>
+            </div>
         </div>
     </aside>
 
