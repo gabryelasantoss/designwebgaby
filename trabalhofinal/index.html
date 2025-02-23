@@ -24,50 +24,256 @@
         </div>
     </header>
 
-    <aside>
-        <div class="container-aside flex">
-            <a href=""><img src="assets/img/chevron-left.svg" alt="Seta apontada para a esquerda"></a>
-            <nav>
-                <menu>
-                    <button class="item-menu flex">
-                        <span class="quadrado"><img src="assets/img/icon.svg" alt="icon Dashboard"></span>
-                        <div class="gray">Dashboard</div>
-                    </button>
+    <div class="container flex">
+        <aside>
+            <div class="container-aside flex">
+                <a href=""><img src="assets/img/chevron-left.svg" alt="Seta apontada para a esquerda"></a>
+                <nav>
+                    <menu>
+                        <button class="item-menu flex">
+                            <span class="quadrado"><img src="assets/img/icon.svg" alt="icon Dashboard"></span>
+                            <div class="light-blue">Dashboard</div>
+                        </button>
+    
+                        <button class="item-menu flex">
+                            <span class="quadrado flex"><img src="assets/img/Group.svg" alt="icon users"></span>
+                            <div class="light-blue">Inscrições</div>
+                        </button>
+                        <button class="item-menu flex ">
+                            <span class="quadrado flex"><img src="assets/img/report.svg" alt="icon relatórios"></span>
+                            <div class="light-blue">Relatórios</div>
+                        </button >
+                        <button class="item-menu flex ">
+                            <span class="quadrado flex"><img src="assets/img/send.svg" alt="icon 'send'"></span>
+                            <div class="light-blue"">Comunicação</div>
+                        </button >
+                        <button  class="item-menu flex">
+                            <span class="quadrado flex"><img src="assets/img/Group.svg" alt="icon eventos"></span>
+                            <div class="light-blue">Meus eventos</div>
+                        </button>
+                    </menu>                
+                </nav>
+    
+                <div class="menu-bottom">
+                    <menu>
+                        <button  class="item-menu flex">
+                            <span class="quadrado flex"><img src="assets/img/settings.svg" alt="icon configurações"></span>
+                            <div class="gray">Configurações</div>
+                        </button>
+    
+                        <button  class="item-menu flex">
+                            <span class="quadrado flex"><img src="assets/img/sair.svg" alt="icon sair"></span>
+                            <div class="gray">Sair</div>
+                        </button>
+                    </menu>
+                </div>
+            </div>    
+        </aside>
 
-                    <button class="item-menu flex">
-                        <span class="quadrado flex"><img src="assets/img/Group.svg" alt="icon users"></span>
-                        <div class="gray">Inscrições</div>
-                    </button>
-                    <button class="item-menu flex ">
-                        <span class="quadrado flex"><img src="assets/img/report.svg" alt="icon relatórios"></span>
-                        <div class="gray">Relatórios</div>
-                    </button >
-                    <button class="item-menu flex ">
-                        <span class="quadrado flex"><img src="assets/img/send.svg" alt="icon 'send'"></span>
-                        <div class="gray">Comunicação</div>
-                    </button >
-                    <button  class="item-menu flex">
-                        <span class="quadrado flex"><img src="assets/img/Group.svg" alt="icon eventos"></span>
-                        <div class="gray">Meus eventos</div>
-                    </button>
-                </menu>                
-            </nav>
+        <main class="principal">
+            <header>
+                <div class="main-header-container flex">
+                    <div class="left">
+                        <div class="top flex">
+                            <h3>SEMADEC AWE 2025</h3>
+                            <a href=""><img src="assets/img/external-link.svg" alt="icon external link"></a>
+                        </div>
+                        <div class="bottom-information flex">
+                            <span class="information gray">
+                                <img src="assets/img/calendar.svg" alt="icone calendário"> 19/03/2025
+                            </span>
+                            <span class="information gray">
+                                <img src="assets/img/map-pin.svg" alt="icone localização"> IFZN
+                            </span>
+                            <span class=" information flex">
+                                <img src="assets/img/user-check.svg" alt="icone user"> 
+                                <strong>Recebendo Inscrições</strong>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button><img src="assets/img/edit.svg" alt="icon editar"> Editar</button>
+                    </div>
+                </div>
+            </header>
 
-            <div class="bottom">
-                <menu class="bottom">
-                    <button  class="item-menu flex">
-                        <span class="quadrado flex"><img src="assets/img/settings.svg" alt="icon configurações"></span>
-                        <div class="gray">Configurações</div>
-                    </button>
+            <div class="container-cards flex">
+                <div class="card text-blue flex" >
+                    <div class="top flex">
+                            <div class="left flex">
+                                <span><img src="assets/img/users  blue.svg" alt="icon user"></span>
+                                <span>Inscrições</span>
+                            </div>
+                            <div class="right">
+                                <img src="assets/img/external-link blue.svg" alt="#">
+                            </div>  
+                    </div>
+                    <h2 class="black">125.542</h2>
+                    <span>35% pendentes</span>
+                </div>
 
-                    <button  class="item-menu flex">
-                        <span class="quadrado flex"><img src="assets/img/sair.svg" alt="icon sair"></span>
-                        <div class="gray">Sair</div>
-                    </button>
-                </menu>
+                <div class="card text-blue flex" >
+                    <div class="top flex">
+                            <div class="left flex">
+                                <span><img src="assets/img/percent.svg" alt="icon porcentagem"></span>
+                                <span>Descontos</span>
+                            </div>
+                            <div class="right">
+                                <img src="assets/img/external-link blue.svg" alt="#">
+                            </div>  
+                    </div>
+                    <h2 class="black">145</h2>
+                    <span>30% usados</span>
+                </div>
+
+                <div class="card text-blue flex" >
+                    <div class="top flex">
+                            <div class="left flex">
+                                <span><img src="assets/img/percent.svg" alt="icon porcentagem"></span>
+                                <span>Movimentação</span>
+                            </div>
+                            <div class="right flex">
+                                <img src="assets/img/eye.svg" alt="#">
+                                <img src="assets/img/external-link blue.svg" alt="#">
+                            </div>  
+                    </div>
+                    <div class="amount flex">
+                        <span text-blue>R$</span>
+                        <h2 class="black">1.456.999,00</h2>
+                    </div>
+                    <span>+ R$ **** em processamento</span>
+                </div>
+
+
             </div>
-        </div>
-    </aside>
 
+            <div class="funcoes-rapidas">
+                <div class="two-style"><p><strong>Funções</strong> rápidas</p></div>
+                <div class="button text-blue flex">
+                    <div class="btn-fast flex">
+                        <i class="icon icon-relatorios">
+                            <img src="assets/img/file-text.svg" alt="icon arquivo">
+                        </i>
+                        <span>Relatórios</span>
+                    </div>
+                    <div class="btn-fast flex">
+                        <i class="icon icon-add">
+                            <img src="assets/img/user-plus.svg" alt="icon user +">
+                        </i>
+                        <span>Add Inscrição</span>
+                    </div>
+                    <div class="btn-fast flex">
+                        <i class="icon icon-descontos">
+                            <img src="assets/img/percent (1).svg" alt="icon porcentagem">
+                        </i>
+                        <span>Descontos</span>
+                    </div>
+                    <div class="btn-fast flex">
+                        <i class="icon icon-importar">
+                            <img src="assets/img/users (1).svg" alt="icon users">
+                        </i>
+                        <span>Importar</span>
+                    </div>
+                    <div class="btn-fast flex">
+                        <i class="icon icon-cursos">
+                            <img src="assets/img/trello.svg" alt="icon cursos">
+                        </i>
+                        <span>Cursos</span>
+                    </div>
+                    <div class="btn-fast flex mais-itens">
+                        <i class="icon icon-mais">
+                            <img src="assets/img/plus-circle.svg" alt="icon plus">
+                        </i>
+                        <span>Mais itens</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-registrations">
+                <div class="title flex">
+                    <div class="two-style"><p><strong>Últimas </strong> Inscrições</p></div>
+                    <a href="">Ver tudo</a>
+                </div>
+            
+                <div class="table-complete-container flex">
+                    <table class="tabela" >
+                        <tr>
+                            <td class="name flex"><span class="green ball"></span>Clayton Rennan</td>
+                            <td class="class">Info</td>
+                            <td class="modality">Natação, Judô</td>
+                        </tr>
+                        <tr>
+                            <td class="name flex"><span class="green ball"></span>Andriel Gleisson</td>
+                            <td class="class">Info</td>
+                            <td class="modality">League of Legends</td>
+                        </tr>
+                        <tr>
+                            <td class="name flex"><span class="green ball"></span>Filipis Santana</td>
+                            <td class="class">Eletro</td>
+                            <td class="modality">League of Legends</td>
+                        </tr>
+                        <tr>
+                            <td class="name flex"><span class="neutro ball"></span>Alex Sandro</td>
+                            <td class="class">Com</td>
+                            <td class="modality">Tênis de mesa</td>
+                        </tr>
+                        <tr class="sublinhado">
+                            <td class="name flex"><span class="red ball"></span>João da Silva</td>
+                            <td class="class">Info</td>
+                            <td class="modality">Futesal</td>
+                        </tr>
+                    </table>
+            
+                    <div class="container-complete">
+                        <div class="two-style"><p><strong>Inscrições </strong> realizadas</p></div>
+                        <div class="cards-porcent flex">
+                            <div class="card-porcent first flex">
+                                <strong>33%</strong>
+                                <span>63</span>
+                            </div>
+                            <div class="card-porcent second flex">
+                                <strong>30%</strong>
+                                <span>54</span>
+                            </div>
+                            <div class="card-porcent third flex">
+                                <strong>30%</strong>
+                                <span>54</span>
+                            </div>
+                            <div class="card-porcent fourth flex">
+                                <strong>7%</strong>
+                                <span>13</span>
+                            </div>
+                        </div>
+
+                        <div class="legends flex">
+                            <div class="legend flex">
+                                <span class="ball first"></span><div class="two-style"><p><strong>Infor</strong>mática</p></div>
+                            </div>
+
+                            <div class="legend flex">
+                                <span class="ball second"></span><div class="two-style"><p><strong>Eletrô</strong>nica</p></div>
+                            </div>
+
+                            <div class="legend flex">
+                                <span class="ball third"></span><div class="two-style"><p><strong>Com</strong>ércio</p></div>
+                            </div>
+
+                            <div class="legend flex">
+                                <span class="ball fourth"></span><div class="two-style"><p>Outros</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </main>
+
+        <aside>
+            <div class="container-aside-right"><a href="">kskdj</a></div>
+            <a href=""></a>
+        </aside>
+    </div>
+
+
+    
 </body>
 </html>
