@@ -126,7 +126,7 @@ header .btn{
 }
 
 .principal{
-    width: 100%;
+    width: 65%;
     padding-top: 20px;
     padding-left: 20px;
 }
@@ -283,3 +283,54 @@ td, th {
     max-width: 580px;
 }
 
+.container-aside-right{
+    padding: 20px;
+    background: #F2F9FD;
+}
+
+
+.cancel-button {
+    display: flex;
+    align-items: center;
+    background: #FEFEFE;
+    padding: 16px;
+    border-radius: 6px;
+    max-width: 350px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-size: 16px;
+    color: #0C2B61;
+    font-weight: bold;
+}
+
+.icon-container {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #e9ecf0;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.icon-container::before {
+    content: "$";
+    font-size: 24px;
+    color: #3a3a3a;
+    font-weight: bold;
+}
+
+.badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #0c3d7d;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
