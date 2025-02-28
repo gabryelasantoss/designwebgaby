@@ -44,6 +44,47 @@ header .btn{
     margin-left: auto;
 }
 
+.container-profile {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.imagem-perfil {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    transform: translate(-50%, -50%);
+}
+
+.progress-circle {
+    position: absolute;
+    transform: rotate(-90deg);
+}
+
+.progress-bg,
+.progress-bar {
+    fill: none;
+    stroke-width: 5;
+    cx: 25;
+    cy: 25;
+    r: 20;
+}
+
+.progress-bg {
+    stroke:#D1D5DB;
+}
+
+.progress-bar {
+    stroke:  #F60;;
+    stroke-dasharray: 125;
+    stroke-dashoffset: 70; 
+    transition: stroke-dashoffset 0.5s ease-in-out;
+}
+
 .blue{
     color: #0F3679;
     font-size: 16px;
@@ -112,6 +153,10 @@ header .btn{
     margin-top: 8px;
 }
 
+.black-icon{
+    max-width: 18px;
+}
+
 .top a {
     margin-left: auto;
 }
@@ -138,7 +183,7 @@ header .btn{
 }
 
 .container-cards{
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .card {
@@ -167,6 +212,11 @@ header .btn{
     align-items: end;
 }
 
+.two-style{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .button {
     justify-content: space-between;
     flex-wrap: wrap;
@@ -193,7 +243,8 @@ header .btn{
 }
 
 .title{
-    max-width: 650px;
+    max-width: 400px;
+    align-items: center;
 }
 
 .title a {
@@ -286,6 +337,12 @@ td, th {
 .container-aside-right{
     padding: 20px;
     background: #F2F9FD;
+    height: 100%;
+}
+
+.btn-area{
+    flex-direction: column;
+    gap: 10px;
 }
 
 
@@ -295,7 +352,7 @@ td, th {
     background: #FEFEFE;
     padding: 16px;
     border-radius: 6px;
-    max-width: 350px;
+    width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border: none;
     font-size: 16px;
@@ -311,8 +368,9 @@ td, th {
     height: 50px;
     background: #e9ecf0;
     border-radius: 50%;
-    margin-right: 15px;
+
 }
+
 .icon-container::before {
     content: "$";
     font-size: 24px;
@@ -334,3 +392,54 @@ td, th {
     justify-content: center;
     border-radius: 50%;
 }
+
+.message::before {
+    content: url('img/message-square.svg');
+}
+
+.doc::before{
+    content: url('img/check-square.svg');
+}
+
+.cancel-button:hover {
+    background: #0D5EAF;
+    color: #FFFF;
+}
+
+.last{
+    margin-top: 10px;
+}
+
+.last, a{
+    color: #0F3679;
+}
+
+.card-task {
+    background: white;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+.card-task:hover{
+    background: #E3F4FE;
+}
+
+.title {
+    color: #3F5E94;
+    font-size: 14px;
+}
+
+.content {
+    margin-top: 8px;
+    color: #494E57;
+}
+
+.timestamp {
+    margin-top: 12px;
+    color: #797D84;
+    font-size: 12px;
+}
+

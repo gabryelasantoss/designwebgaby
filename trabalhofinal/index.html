@@ -17,7 +17,13 @@
             </div>
             <div class="profile flex">
                 <button class="btn flex">Suspender inscrições <a href=""><img src="assets/img/pause-circle.svg" alt="Botão de pause"></a></button>
-                <img src="assets/img/Foto - perfil.png" alt="Foto de perfil do usuário">
+                <div class="container-profile">
+                    <svg class="progress-circle" width="50" height="50">
+                        <circle class="progress-bg" cx="50" cy="40" r="30"></circle>
+                        <circle class="progress-bar" cx="50" cy="40" r="30"></circle>
+                    </svg>
+                    <img src="assets/img/Foto - perfil.png" alt="Foto de Perfil" class="imagem-perfil">
+                </div>
                 <span class="blue">Clayton</span>
                 <a href=""><img src="assets/img/chevron-down.svg" alt="Seta apontada para baixo"></a>
             </div>
@@ -86,7 +92,7 @@
                                 <img src="assets/img/map-pin.svg" alt="icone localização"> IFZN
                             </span>
                             <span class=" information flex">
-                                <img src="assets/img/user-check.svg" alt="icone user"> 
+                                <img class="black-icon" src="assets/img/user-check.svg" alt="icone user"> 
                                 <strong>Recebendo Inscrições</strong>
                             </span>
                         </div>
@@ -269,24 +275,70 @@
 
         <aside>
             <div class="container-aside-right">
-                <a href=""><img src="assets/img/chevron-left.svg" alt="Seta apontada para a esquerda"></a>
+                <a href=""><img src="assets/img/chevron-right.svg" alt="Seta apontada para a esquerda"></a>
                 <div class="title">
                     <strong>Pendências</strong>
                     <p>Acompanhe todas as ações necessárias</p>
                 </div>
 
-                <div class="btn-container flex">
-                    <button class="cancel-button flex">
-                        <div class="icon-container flex">
-                            <div class="badge flex">10</div>
-                        </div>
-                        Pedidos de cancelamento
-                    </button>
+                <div class="btn-area flex">
+                    <div class="btn-container flex">
+                        <button class="cancel-button flex">
+                            <div class="icon-container cancel flex">
+                                <div class="badge flex">10</div>
+                            </div>
+                            Pedidos de cancelamento
+                        </button>
+                    </div>
+    
+                    <div class="btn-container flex">
+                        <button class="cancel-button flex">
+                            <div class="icon-container message flex">
+                                <div class="badge flex">10</div>
+                            </div>
+                            Solicitação de atendimento
+                        </button>
+                    </div>
+    
+                    <div class="btn-container flex">
+                        <button class="cancel-button flex">
+                            <div class="icon-container doc flex">
+                                <div class="badge flex">10</div>
+                            </div>
+                            Avaliação de documentos
+                        </button>
+                    </div>
+
                 </div>
 
+                <div class="title last flex">
+                    <div><strong>Últimas</strong></div>
+                    <a href="">Ver todas</a>
+                </div>
+
+                <div class="card-task">
+                    <div class="title"><strong>Entrega de kits da SEMADEC AWE 2025</strong></div>
+                    <div class="content">
+                        Seu kit estará disponível para retirada nos dias 01, 02, 03 e 04 de novembro no Arena ZN.
+                    </div>
+                    <div class="timestamp">20/11/2024 18:00:45</div>
+                </div>
 
             </div>
         </aside>
+
+        <div class="header-container flex">
+            <div class="profile flex">
+                <div class="container-profile">
+                    <svg class="progress-circle" width="120" height="120">
+                        <circle class="progress-bg" cx="60" cy="50" r="40"></circle>
+                        <circle class="progress-bar" cx="60" cy="50" r="40"></circle>
+                    </svg>
+                    <img src="assets/img/Foto - perfil.png" alt="Foto de Perfil" class="imagem-perfil">
+                </div>
+                
+            </div>
+        </div>
     </div>
 
 
