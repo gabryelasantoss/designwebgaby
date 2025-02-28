@@ -98,20 +98,40 @@ header .btn{
     text-decoration: none;
     color: #0D5EAF;
     font-size: 16px;
-    padding: 0px;
     border: none;
     background: #FFF;
     margin-bottom: 10px;
 }
 
-.item-menu:active {
-    .quadrado{
-        background: #0D5EAF;
-    }
-    .light-blue{
-        background: #F2F9FD;
-    }
+.item-menu:active .quadrado {
+    background: #0D5EAF;
 }
+
+.item-menu:active .inscrição {
+    content: url('img/users-white.svg');
+}
+
+.item-menu:active .dashboard {
+    content: url('img/icon.svg');
+}
+
+.item-menu:active .relatorios {
+    content: url('img/report-white.svg');
+}
+
+.item-menu:active .comunicação {
+    content: url('img/send-white.svg');
+}
+
+.item-menu:active .eventos {
+    content: url('img/Group-white.svg');
+}
+
+.item-menu:active .light-blue {
+    background: #F2F9FD;
+}
+
+
 
 .quadrado{
     padding: 6px;
@@ -372,10 +392,7 @@ td, th {
 }
 
 .icon-container::before {
-    content: "$";
-    font-size: 24px;
-    color: #3a3a3a;
-    font-weight: bold;
+    content: url('img/dollar-sign.svg');
 }
 
 .badge {
